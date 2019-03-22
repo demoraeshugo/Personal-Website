@@ -9,10 +9,6 @@
     color: rgb(253, 192, 47) !important;
 }
 
-/*.home a:hover {
-    color: rgb(253, 192, 47) !important;
-}*/
-
 .jumbotron1 {
     position: relative;
     background: url(/images/code-background.png);
@@ -154,23 +150,42 @@ ul {
 }
 
 .headshot {
-    width: 45vw;
+    width: 75vh;
+    margin-top: 4em;
+    border-radius: 360px;
+    border: 1.5px solid rgb(52, 58, 63);
     display: block;
     margin-left: auto;
     margin-right: auto;
-    border-color: rgb(253, 192, 47);
     background-color: rgb(253, 192, 47);
+}
+
+#Projects > a {
+  text-decoration: none;
 }
 
 @media (max-width: 767px) {
 
     h1 {
-        font-size: 3.5em;
+        font-size: 2.0em;
     }
 
     h2 {
-        font-size: 1.8rem;
+        font-size: 1.2rem;
     }
+
+    .headshot {
+      width: 50vh;
+    }
+
+    .button {
+      width: 150px;
+    }
+
+    .button span {
+      font-size: .8em;
+    }
+
 }
 
 hr {
@@ -315,5 +330,6 @@ hr {
       left: 0%;
     }
   }
+
 
 
