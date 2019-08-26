@@ -32,7 +32,7 @@ $(document).ready(function() {
 });
 
 $(window).scroll(function() {
-    var scrollDistance = $(window).scrollTop();
+    var scrollDistance = ($(window).scrollTop());
 
     // Assign active class to nav links while scolling
     $('.page-section').each(function(i) {
@@ -42,3 +42,7 @@ $(window).scroll(function() {
             }
     });
 }).scroll();
+
+/*$(window).scroll(function() {
+
+}).scroll(); */
