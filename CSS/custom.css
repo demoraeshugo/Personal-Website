@@ -195,11 +195,18 @@ hr {
     border: none;
 }
 
-#contactIcons .fa {
+.icon .fa {
     font-size: 50pt;
-    width: 1.5em;
-    height: 2em;
+    vertical-align: middle;
+    /*width: 5.5em;
+    height: 5em;*/
 }
+
+.icon * {
+  padding: .5em;
+  padding-left: 0em;
+}
+
 
 * {
     box-sizing: border-box;
