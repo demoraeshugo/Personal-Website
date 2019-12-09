@@ -29,7 +29,7 @@ h3 {
     color:white;
 }
 
-#Experience h3 {
+#Experience h3, #About h3 {
     color: rgba(43, 43, 43, .8);
 }
 
@@ -44,7 +44,6 @@ footer {
 
 .space-pad {
     padding-top: 4em;
-    padding-bottom: 4em;
 }
 
 @keyframes bounce {
@@ -165,11 +164,15 @@ ul {
 @media (max-width: 767px) {
 
     h1 {
-        font-size: 2.0em;
+        font-size: 3em;
     }
 
     h2 {
-        font-size: 1.2rem;
+        font-size: 1.5em;
+    }
+
+    h3 {
+      font-size: 1.3em;
     }
 
     .headshot {
