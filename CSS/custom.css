@@ -196,8 +196,8 @@ hr {
   padding-left: 0em;
 }
 
-#Contact {
-    bottom: 0;
+#About div {
+    vertical-align: middle;
 }
 
 * {
