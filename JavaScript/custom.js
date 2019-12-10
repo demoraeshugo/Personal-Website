@@ -42,7 +42,3 @@ $(window).scroll(function() {
             }
     });
 }).scroll();
-
-/*$(window).scroll(function() {
-
-}).scroll(); */

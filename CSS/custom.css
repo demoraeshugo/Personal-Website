@@ -44,6 +44,7 @@ footer {
 
 .space-pad {
     padding-top: 4em;
+    padding-bottom: 4em;
 }
 
 @keyframes bounce {
@@ -210,6 +211,8 @@ hr {
 * {
     box-sizing: border-box;
   }
+
+
   
   
   
