@@ -1,3 +1,3 @@
 # Personal-Website
 
-This is my personal porfolio website, using bootstrap4 and javascript. 
+This is my personal porfolio website built with HMTL, CSS, Bootstrap, Javascript, & Jquery
