@@ -147,17 +147,6 @@ ul {
     color:rgb(150, 150, 150);
 }
 
-.headshot {
-    width: 75vh;
-    margin-top: 4em;
-    border-radius: 360px;
-    border: 1.5px solid rgb(52, 58, 63);
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: rgb(253, 192, 47);
-}
-
 #Projects a {
   text-decoration: none;
 }
@@ -207,13 +196,15 @@ hr {
   padding-left: 0em;
 }
 
+#Contact {
+    bottom: 0;
+}
 
 * {
     box-sizing: border-box;
   }
 
-
-  
+ 
   
   
 
