@@ -43,8 +43,8 @@ footer {
 }
 
 .space-pad {
-    padding-top: 4em;
-    padding-bottom: 1em;
+    padding-top: 2em;
+    padding-bottom: 2em;
 }
 
 @keyframes bounce {
@@ -140,7 +140,8 @@ nav {
 }
 
 ul {
-    list-style-image: url('/Personal-Website/Images/angle-right-solid.svg');
+    list-style-image: url('/Images/angle-right-solid.svg');
+    list-style-type: circle;
 }
 
 #About p, #Experience p {
@@ -149,6 +150,7 @@ ul {
 
 #Projects a {
   text-decoration: none;
+  color: white;
 }
 
 @media (max-width: 767px) {
@@ -204,10 +206,18 @@ hr {
     vertical-align: middle;
 }
 
+.card > img{
+    height:  180px;
+    overflow: hidden;
+}
+
 * {
     box-sizing: border-box;
   }
 
+  #Project-Feed {
+      padding-bottom: 2em;
+  }
  
   
   
