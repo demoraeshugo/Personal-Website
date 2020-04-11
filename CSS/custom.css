@@ -9,7 +9,7 @@
 
 .jumbotron1 {
     position: relative;
-    background-image: url('https://demoraeshugo.github.io/Personal-Website/Images/code-background.png');
+    background-image: url("/Images/code-background.png");
     background-repeat: no-repeat;
     background-size: 200vmax;
     padding-top: 5.5rem;
