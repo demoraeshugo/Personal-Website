@@ -4,29 +4,36 @@
 }
 
 .active {
-    color: rgb(253, 192, 47) !important;
+    color: rgb(3, 112, 249) !important;
 }
 
 .jumbotron1 {
     position: relative;
-    background-image: url("/Images/code-background.png");
+    background-color: rgb(46, 51, 56);
     background-repeat: no-repeat;
     background-size: 200vmax;
     padding-top: 5.5rem;
     padding-bottom: 3.0em;
 }
 
+/*  background-image: url("/Images/code-background.png"); */
+
 h1 {
-    font-size: 4em;
+    font-size: 5.5em;
 }
 
 h2 {
     color: rgba(43, 43, 43, .8);
-    font-size: 3em;
+    font-size: 4em;
 }
 
 h3 {
+    font-size: 2em;
     color:white;
+}
+
+#headline { 
+    padding-top: 8em;
 }
 
 #Experience h3, #About h3 {
@@ -35,11 +42,15 @@ h3 {
 
 h5 {
     color: rgb(150, 150, 150);
-    font-size: 1em;
+    font-size: 1.5em;
 }
 
 footer {
     margin: 15px;
+}
+
+strong {
+    color: rgb(3, 112, 249);
 }
 
 .space-pad {
