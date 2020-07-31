@@ -1,162 +1,168 @@
 * {
-    font-family: 'Quicksand', sans-serif;
-    z-index: 1;
+  font-family: "Quicksand", sans-serif;
+  z-index: 1;
 }
 
 .active {
-    color: rgb(3, 112, 249) !important;
+  color: rgb(3, 112, 249) !important;
 }
 
 .jumbotron1 {
-    position: relative;
-    background-color: rgb(46, 51, 56);
-    background-repeat: no-repeat;
-    background-size: 200vmax;
-    padding-top: 5.5rem;
-    padding-bottom: 3.0em;
+  position: relative;
+  background-color: rgb(46, 51, 56);
+  background-repeat: no-repeat;
+  background-size: 200vmax;
+  padding-top: 5.5rem;
+  padding-bottom: 3em;
 }
 
 /*  background-image: url("/Images/code-background.png"); */
 
 h1 {
-    font-size: 5.5em;
+  font-size: 5.5em;
 }
 
 h2 {
-    color: rgba(43, 43, 43, .8);
-    font-size: 4em;
+  color: rgba(43, 43, 43, 0.8);
+  font-size: 3.5em;
 }
 
 h3 {
-    font-size: 2em;
-    color:white;
+  font-size: 2em;
+  color: white;
 }
 
-#headline { 
-    padding-top: 8em;
+#headline {
+  padding-top: 3%;
 }
 
-#Experience h3, #About h3 {
-    color: rgba(43, 43, 43, .8);
+#Experience h3,
+#About h3 {
+  color: rgba(43, 43, 43, 0.8);
 }
 
 h5 {
-    color: rgb(150, 150, 150);
-    font-size: 1.5em;
+  color: rgb(150, 150, 150);
+  font-size: 1.5em;
 }
 
 footer {
-    margin: 15px;
+  margin: 15px;
 }
 
 strong {
-    color: rgb(3, 112, 249);
+  color: rgb(3, 112, 249);
 }
 
 .space-pad {
-    padding-top: 2em;
-    padding-bottom: 2em;
+  padding-top: 2em;
+  padding-bottom: 2em;
 }
 
 @keyframes bounce {
-    from { transform: translate3d(0,0,0);}
-    to { transform: translate3d(0,-12px,0);}
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    transform: translate3d(0, -12px, 0);
+  }
 }
 
 .grow {
-    transition: all .5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .grow:hover {
-    transform: scale(1.08);
+  transform: scale(1.08);
 }
 
 .card {
-    margin-top: 1em;
+  margin-top: 1em;
 }
 
 .scroll {
-    position: absolute;
-    text-align: center;
-    bottom: 0;
-    font-size: 40pt;
-    opacity: .6;
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  font-size: 40pt;
+  opacity: 0.6;
 }
 
 .bounce {
-    animation: bounce 0.6s;
-    animation-direction: alternate;
-    animation-iteration-count: infinite;
+  animation: bounce 0.6s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
 }
 
 nav {
-    background-color: rgba(43, 43, 43, .8);
-    z-index: 100;
+  background-color: rgba(43, 43, 43, 0.8);
+  z-index: 100;
 }
 
 .home {
-    height: 100vh;
+  height: 100vh;
 }
 
 .jumbotron1 {
-    height: 100vh;
+  height: 100vh;
 }
 
 .jumbotron1 a {
-    font-size: 25pt;
+  font-size: 25pt;
 }
 
 .button {
-    width: 200px;
-    transition: all 0.5s;
-    cursor: pointer;
-    margin: 5px;
-    color: white;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  color: white;
 }
-  
+
 .button span {
-    cursor: pointer;
-    display: inline-block;
-    position: relative;
-    transition: 0.5s;
-    color: white;
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+  color: white;
 }
 
 .button span:after {
-    content: '\00bb';
-    position: absolute;
-    opacity: 0;
-    top: 0;
-    right: -20px;
-    transition: 0.5s;
-    color: white;
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+  color: white;
 }
 
 .button:hover span {
-    padding-right: 25px;
+  padding-right: 25px;
 }
 
 .button:hover span:after {
-    opacity: 1;
-    right: 0;
+  opacity: 1;
+  right: 0;
 }
 
 .fa-angle-up {
-    position: relative;
-    top: 25px;
+  position: relative;
+  top: 25px;
 }
 
 .margin {
-    margin-top: 1em;
+  margin-top: 1em;
 }
 
 ul {
-    list-style-image: url('/Images/angle-right-solid.svg');
-    list-style-type: circle;
+  list-style-image: url("/Images/angle-right-solid.svg");
+  list-style-type: circle;
 }
 
-#About p, #Experience p {
-    color:rgb(150, 150, 150);
+#About p,
+#Experience p {
+  color: rgb(150, 150, 150);
 }
 
 #Projects a {
@@ -165,73 +171,73 @@ ul {
 }
 
 @media (max-width: 767px) {
+  h1 {
+    font-size: 3em;
+  }
 
-    h1 {
-        font-size: 3em;
-    }
+  h2 {
+    font-size: 1.5em;
+  }
 
-    h2 {
-        font-size: 1.5em;
-    }
+  h3 {
+    font-size: 1.3em;
+  }
 
-    h3 {
-      font-size: 1.3em;
-    }
+  .headshot {
+    width: 50vh;
+  }
 
-    .headshot {
-      width: 50vh;
-    }
+  .button {
+    width: 150px;
+  }
 
-    .button {
-      width: 150px;
-    }
+  .button span {
+    font-size: 0.8em;
+  }
 
-    .button span {
-      font-size: .8em;
-    }
-
-    .scroll {
-        top: 75vh;
-    }
-
+  .scroll {
+    top: 75vh;
+  }
 }
 
 hr {
-    width: 50px;
-    margin-left: 0;
-    height: 2px;
-    border: none;
+  width: 50px;
+  margin-left: 0;
+  height: 2px;
+  border: none;
 }
 
 .icon .fa {
-    font-size: 50pt;
-    vertical-align: middle;
+  font-size: 40pt;
+  vertical-align: middle;
 }
 
 .icon * {
-  padding: .2em;
-  padding-left: 0em;
+  padding: 0.2em;
+  padding-left: 0;
+  padding-right: 0;
+  padding-bottom: 1em;
+}
+
+.icon > span{
+  margin: auto;
+  vertical-align: middle;
+  display: inline-block;
 }
 
 #About div {
-    vertical-align: middle;
+  vertical-align: middle;
 }
 
-.card > img{
-    height:  184px;
-    overflow: hidden;
+.card > img {
+  height: 184px;
+  overflow: hidden;
 }
 
 * {
-    box-sizing: border-box;
-  }
+  box-sizing: border-box;
+}
 
-  #Project-Feed {
-      padding-bottom: 2em;
-  }
- 
-  
-  
-
-
-
+#Project-Feed {
+  padding-bottom: 2em;
+}
